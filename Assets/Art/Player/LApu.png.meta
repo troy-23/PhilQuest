@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 6d85be4d43653c34bae7a7e2116c9d6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1584061330345129955
+    second: LApu_0
+  - first:
+      213: -9209798516825598149
+    second: LApu_1
+  - first:
+      213: 3518820251901260384
+    second: LApu_2
+  - first:
+      213: 686126700694583708
+    second: LApu_3
+  - first:
+      213: 1026111998978007338
+    second: LApu_4
+  - first:
+      213: -3026248402681332950
+    second: LApu_5
+  - first:
+      213: -5908165545869574905
+    second: LApu_6
+  - first:
+      213: 8856448080777531448
+    second: LApu_7
+  - first:
+      213: -402371944534737158
+    second: LApu_8
+  - first:
+      213: -1986070542361137343
+    second: LApu_9
+  - first:
+      213: 2655632308813192834
+    second: LApu_10
+  - first:
+      213: 9195761957622154217
+    second: LApu_11
+  - first:
+      213: 208841642388193509
+    second: LApu_12
+  - first:
+      213: -825302887277513723
+    second: LApu_13
+  - first:
+      213: 3055237069528960463
+    second: LApu_14
+  - first:
+      213: 2960946942143794055
+    second: LApu_15
+  - first:
+      213: 4684454067569392730
+    second: LApu_16
+  - first:
+      213: -5563186999150367114
+    second: LApu_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LApu_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 2088
+        width: 298
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e777a12367bbf510800000000000000
+      internalID: 1584061330345129955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 2530
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37d0b76b09303080800000000000000
+      internalID: -9209798516825598149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 2088
+        width: 307
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0627607206c55d030800000000000000
+      internalID: 3518820251901260384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2088
+        width: 352
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99bfc9599c958900800000000000000
+      internalID: 686126700694583708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1615
+        width: 311
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21a9de2d6b7d3e00800000000000000
+      internalID: 1026111998978007338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2074
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bf51c8c1b9006d0800000000000000
+      internalID: -3026248402681332950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1615
+        width: 278
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dfd342dbaf10ea0800000000000000
+      internalID: -5908165545869574905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_7
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1592
+        width: 307
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8305f622b9c68ea70800000000000000
+      internalID: 8856448080777531448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1064
+        width: 324
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe7c6a29dc7a6af0800000000000000
+      internalID: -402371944534737158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_9
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1506
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f62b74d5f0074e0800000000000000
+      internalID: -1986070542361137343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_10
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1064
+        width: 333
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e5cd4c383bad420800000000000000
+      internalID: 2655632308813192834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_11
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1064
+        width: 285
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e38e1b77c8ed9f70800000000000000
+      internalID: 9195761957622154217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1281
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e08bd40e54f5e200800000000000000
+      internalID: 208841642388193509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 591
+        width: 311
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50438bb856feb84f0800000000000000
+      internalID: -825302887277513723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1050
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd01e96de1666a20800000000000000
+      internalID: 3055237069528960463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 591
+        width: 278
+        height: 465
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b824d5e85671920800000000000000
+      internalID: 2960946942143794055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_16
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 568
+        width: 307
+        height: 491
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c7b18b726820140800000000000000
+      internalID: 4684454067569392730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LApu_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1024
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e229836e69bc2b0800000000000000
+      internalID: -5563186999150367114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LApu_0: 1584061330345129955
+      LApu_1: -9209798516825598149
+      LApu_10: 2655632308813192834
+      LApu_11: 9195761957622154217
+      LApu_12: 208841642388193509
+      LApu_13: -825302887277513723
+      LApu_14: 3055237069528960463
+      LApu_15: 2960946942143794055
+      LApu_16: 4684454067569392730
+      LApu_17: -5563186999150367114
+      LApu_2: 3518820251901260384
+      LApu_3: 686126700694583708
+      LApu_4: 1026111998978007338
+      LApu_5: -3026248402681332950
+      LApu_6: -5908165545869574905
+      LApu_7: 8856448080777531448
+      LApu_8: -402371944534737158
+      LApu_9: -1986070542361137343
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
