@@ -31,20 +31,26 @@ public class QuizManager : MonoBehaviour
     [Header("Game Over")]
     public GameOverUI gameOverUI;
 
+<<<<<<< HEAD
     [Header("Congrats Panel")]
     public CongratsPanelManager congratsPanelManager;
 
     [Header("NPC")]
     public GameObject npc; // just rename for clarity
 
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     private int currentQuestion = 0;
     private bool answered = false;
 
     public QuizQuestion[] questions;
 
+<<<<<<< HEAD
     private bool isCooldownActive = false;
     private float cooldownDuration = 30f;
 
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     void Start()
     {
         if (gameOverUI != null)
@@ -53,6 +59,7 @@ public class QuizManager : MonoBehaviour
             gameOverUI.quizManager = this;
         }
 
+<<<<<<< HEAD
         quizPanel?.SetActive(false);
         healthPanel?.SetActive(false);
     }
@@ -69,6 +76,10 @@ public class QuizManager : MonoBehaviour
         quizPanel?.SetActive(true);
         healthPanel?.SetActive(true);
         PlayerStats.Instance?.ResetHealth();
+=======
+        quizPanel?.SetActive(true);
+        healthPanel?.SetActive(true);
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
         LoadQuestion();
     }
 
@@ -139,6 +150,7 @@ public class QuizManager : MonoBehaviour
         {
             currentQuestion++;
             if (currentQuestion < questions.Length)
+<<<<<<< HEAD
             {
                 LoadQuestion();
             }
@@ -153,6 +165,11 @@ public class QuizManager : MonoBehaviour
                     congratsPanelManager.ShowCongratsPanel();
                 }
             }
+=======
+                LoadQuestion();
+            else
+                HandleGameOver(); // You can change this to CompleteQuiz()
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
         }
         else
         {
@@ -164,6 +181,7 @@ public class QuizManager : MonoBehaviour
     void HandleGameOver()
     {
         Debug.Log("☠️ GameOver triggered.");
+<<<<<<< HEAD
         quizPanel?.SetActive(false);
         healthPanel?.SetActive(false);
         gameOverUI?.Show();
@@ -178,6 +196,13 @@ public class QuizManager : MonoBehaviour
         yield return new WaitForSeconds(cooldownDuration);
         isCooldownActive = false;
         Debug.Log("✅ Quiz unlocked.");
+=======
+
+        quizPanel?.SetActive(false);
+        healthPanel?.SetActive(false);
+
+        gameOverUI?.Show();
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     }
 
     public void RestartQuiz()
@@ -185,6 +210,10 @@ public class QuizManager : MonoBehaviour
         currentQuestion = 0;
         quizPanel?.SetActive(true);
         healthPanel?.SetActive(true);
+<<<<<<< HEAD
+=======
+
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
         PlayerStats.Instance?.ResetHealth();
         LoadQuestion();
     }
@@ -206,9 +235,12 @@ public class QuizManager : MonoBehaviour
         correctImage?.SetActive(false);
         wrongImage?.SetActive(false);
     }
+<<<<<<< HEAD
 
     public bool IsCooldownActive()
     {
         return isCooldownActive;
     }
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
 }

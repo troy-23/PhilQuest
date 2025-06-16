@@ -12,7 +12,11 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Mactan.unity
+=======
+    path: Assets/scene/BattleOfMactanScene.unity
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     guid: 8ff26d2c5a4f9b74ca1958546874c45e
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 0c8cc91204ccb1045855352c94636430, type: 2}

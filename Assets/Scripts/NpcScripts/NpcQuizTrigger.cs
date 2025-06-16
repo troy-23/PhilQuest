@@ -1,12 +1,18 @@
 using UnityEngine;
+<<<<<<< HEAD
 using System.Collections;
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
 
 public class NpcQuizTrigger : MonoBehaviour
 {
     public GameObject quizPanel;
+<<<<<<< HEAD
     public QuizManager quizManager;
     public GameObject quizLockedPanel; // ✅ Drag your UI panel here in Inspector
 
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     private bool isPlayerNearby = false;
 
     void Update()
@@ -14,6 +20,7 @@ public class NpcQuizTrigger : MonoBehaviour
         if (isPlayerNearby && Input.GetKeyDown(KeyCode.Z))
         {
             Debug.Log("🎯 Z key pressed - trying to open panel");
+<<<<<<< HEAD
 
             if (quizManager != null && quizManager.IsCooldownActive())
             {
@@ -28,6 +35,8 @@ public class NpcQuizTrigger : MonoBehaviour
                 return;
             }
 
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
             if (quizPanel != null)
             {
                 quizPanel.SetActive(true);
@@ -47,6 +56,10 @@ public class NpcQuizTrigger : MonoBehaviour
             isPlayerNearby = true;
             Debug.Log("🟢 Player entered NPC zone");
 
+<<<<<<< HEAD
+=======
+            // ✅ Restore player health on interaction
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
             if (PlayerStats.Instance != null)
             {
                 PlayerStats.Instance.ResetHealth();
@@ -63,6 +76,7 @@ public class NpcQuizTrigger : MonoBehaviour
             Debug.Log("🔴 Player left NPC zone");
         }
     }
+<<<<<<< HEAD
 
     IEnumerator HideLockedPanelAfterSeconds(float seconds)
     {
@@ -73,4 +87,6 @@ public class NpcQuizTrigger : MonoBehaviour
             Debug.Log("🔕 QuizLockedPanel hidden.");
         }
     }
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
 }

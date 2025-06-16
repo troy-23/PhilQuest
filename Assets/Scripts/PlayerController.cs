@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 
     public Joystick joystick;
 
+<<<<<<< HEAD
     private Rigidbody2D rb;
 
     private void Awake()
@@ -24,13 +25,22 @@ public class PlayerController : MonoBehaviour
         {
             Debug.LogError("❌ Rigidbody2D is missing on Player!");
         }
+=======
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     }
 
     void Update()
     {
         if (joystick == null)
         {
+<<<<<<< HEAD
             joystick = FindFirstObjectByType<Joystick>();
+=======
+            joystick = GameObject.FindObjectOfType<Joystick>();
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
             if (joystick == null)
             {
                 Debug.LogWarning("⚠️ Joystick is not assigned to PlayerController.");
@@ -63,7 +73,11 @@ public class PlayerController : MonoBehaviour
                     if (animator.HasParameter("moveY")) animator.SetFloat("moveY", input.y);
                 }
 
+<<<<<<< HEAD
                 Vector2 targetPos = rb.position + input;
+=======
+                var targetPos = transform.position + (Vector3)input;
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
 
                 if (IsWalkable(targetPos))
                     StartCoroutine(Move(targetPos));
@@ -74,6 +88,7 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isMoving", isMoving);
     }
 
+<<<<<<< HEAD
     IEnumerator Move(Vector2 targetPos)
     {
         isMoving = true;
@@ -89,6 +104,21 @@ public class PlayerController : MonoBehaviour
     }
 
     private bool IsWalkable(Vector2 targetPos)
+=======
+    IEnumerator Move(Vector3 targetPos)
+    {
+        isMoving = true;
+        while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
+            yield return null;
+        }
+        transform.position = targetPos;
+        isMoving = false;
+    }
+
+    private bool IsWalkable(Vector3 targetPos)
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     {
         return Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectLayer | interactableLayer) == null;
     }
@@ -97,8 +127,13 @@ public class PlayerController : MonoBehaviour
     {
         if (animator == null) return;
 
+<<<<<<< HEAD
         var facingDir = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
         var interactPos = rb.position + facingDir;
+=======
+        var facingDir = new Vector3(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        var interactPos = transform.position + facingDir;
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
         var collider = Physics2D.OverlapCircle(interactPos, 0.2f, interactableLayer);
         if (collider != null)
         {

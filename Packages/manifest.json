@@ -10,6 +10,10 @@
     }
   ],
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "com.spoiledcat.git": "1.0.44",
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
     "com.unity.collab-proxy": "2.8.2",
     "com.unity.feature.2d": "2.0.1",
     "com.unity.feature.mobile": "1.0.0",

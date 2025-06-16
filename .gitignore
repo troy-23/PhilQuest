@@ -3,6 +3,7 @@
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
+<<<<<<< HEAD
 [Ll]ogs/
 UserSettings/
 .vscode/
@@ -10,11 +11,19 @@ UserSettings/
 *.unityproj
 *.sln
 *.suo
+=======
+[Mm]emoryCaptures/
+Logs/
+*.csproj
+*.unityproj
+*.sln
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
 *.user
 *.pidb
 *.booproj
 *.svd
 *.pdb
+<<<<<<< HEAD
 *.mdb
 *.opendb
 *.VC.db
@@ -22,3 +31,5 @@ UserSettings/
 *.apk
 *.exe
 *.dll
+=======
+>>>>>>> c24b1a07e585ccda977bb888e024ad6aeb0c6132
