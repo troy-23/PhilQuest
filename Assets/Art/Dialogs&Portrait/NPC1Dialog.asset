@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e1fc7784fe15ec4d9fa57f2ecad8ff9, type: 3}
+  m_Name: NPC1Dialog
+  m_EditorClassIdentifier: 
+  lines:
+  - speakerName: 
+    text: Kumusta
+    speakerPortrait: {fileID: -2263387043477982042, guid: e396730d7f704934b891e3bef231d10f, type: 3}
+  - speakerName: 
+    text: Maayos naman ako Juan
+    speakerPortrait: {fileID: -4060941606832974883, guid: b1ec78f7493390a4ca297b5eca586a05, type: 3}
+  - speakerName: 
+    text: Mabuti naman kung ganoon
+    speakerPortrait: {fileID: -2263387043477982042, guid: e396730d7f704934b891e3bef231d10f, type: 3}
